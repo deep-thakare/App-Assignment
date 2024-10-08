@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import "package:ui_screen/cart_screen.dart";
+import "package:ui_screen/recomended_screen.dart";
 
 
 void main(){
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CartScreen(),
+      home: RecomendedScreen(),
     );
   }
 }
